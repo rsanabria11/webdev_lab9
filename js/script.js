@@ -3,11 +3,11 @@ function init(){
 	var button = document.getElemenetById('entrybutton');
 
 	function showMeText(){
-		var textbox = document.getElemenetById('entrybutton');
+		var textbox = document.getElemenetById('entryinput');
 		document.getElementById('textoutput').innerHTML = textbox.value;
 		alert("Rita Sanabria: " + textbox.value);
-	}
-	button.addEventListener('click',showMeText);
+	} 
+	button.addEventListener('click', showMeText);
 }
 
 window.addEventListener('load', init);
